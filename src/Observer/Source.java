@@ -21,9 +21,8 @@ public class Source {
     }
 
     public void notifyAllObservers(){
-        for (Observer observer:
-             observers) {
-            opserver.update();
+        for (Observer observer: observers) {
+            observer.update();
         }
     }
 }
