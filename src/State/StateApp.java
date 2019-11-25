@@ -12,5 +12,6 @@ public class StateApp {
         closeState.doAction();
 
         System.out.println(aContext.getaState());
+        System.exit(0);
     }
 }
